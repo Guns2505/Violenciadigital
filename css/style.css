@@ -1,0 +1,72 @@
+/*Menu lateral*/
+h1{
+    color:blue;
+}
+h2{
+    color:purple;
+}
+h3{
+    color:black;
+}
+u{
+    color:black;
+}
+
+
+
+
+body{
+    width: 720px;
+    height: 1280px;
+    background-image:url(../img/Violencia\ digital.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:red;
+    font-size:10px;
+}
+.imagen1{
+    margin-left: 100px;
+    text-align: center;
+    height: 300px;
+    
+    
+}
+
+.imagen img{
+    text-align: center;
+    height: 400px;
+
+}
+
+.video{
+    text-align: center;
+
+}
+
+.imagen1 {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.imagen {
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagen:hover {
+    transform: scale(1.1);
+}
+
+header{
+    width: 720px;
+    height: 100px;
+    background-color:blueviolet;
+    text-align: center;
+}
+
+header img{
+    width: 80px;
+    height: 80px;
+}
